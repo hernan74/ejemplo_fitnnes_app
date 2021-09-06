@@ -36,29 +36,29 @@ class ItemStats extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.only(top: 1),
+              padding: const EdgeInsets.only(top: 4),
               child: Row(
                 children: <Widget>[
                   SizedBox(
-                    width: 5,
+                    width: 7,
                   ),
                   Text(
                     titulo,
-                    style: TextStyle(color: Colors.white, fontSize: 20),
+                    style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                   Spacer(),
                   CrearCirculo(
                     color: colorIconoFondo,
-                    size: 70,
+                    size: 7,
                     child: Center(
                         child: FaIcon(
                       icono,
-                      size: 40,
+                      size: 30,
                       color: Colors.white,
                     )),
                   ),
                   SizedBox(
-                    width: 1,
+                    width: 35,
                   )
                 ],
               ),
